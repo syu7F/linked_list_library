@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linked_list_library", "linked_list_library\linked_list_library.csproj", "{85829545-D76B-40CE-9F73-3BB80A610324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTestApp", "StackTestApp\StackTestApp.csproj", "{7ED2E088-ECBA-4392-B8CE-C466632AB9E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackTestApp", "StackTestApp\StackTestApp.csproj", "{7ED2E088-ECBA-4392-B8CE-C466632AB9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postfix", "Postfix\Postfix.csproj", "{F2B90333-EDD2-4110-904D-00671C4FA244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7ED2E088-ECBA-4392-B8CE-C466632AB9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED2E088-ECBA-4392-B8CE-C466632AB9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED2E088-ECBA-4392-B8CE-C466632AB9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B90333-EDD2-4110-904D-00671C4FA244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B90333-EDD2-4110-904D-00671C4FA244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B90333-EDD2-4110-904D-00671C4FA244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B90333-EDD2-4110-904D-00671C4FA244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
