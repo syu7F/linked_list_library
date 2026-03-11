@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\linked_list_library\linked_list_library.csproj" />
+    <ProjectReference Include="..\linked_list_library\LinkedListLibrary.csproj" />
+    <ProjectReference Include="..\MyStackProj\MyStackProj.csproj" />
   </ItemGroup>
 
 </Project>

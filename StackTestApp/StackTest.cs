@@ -1,6 +1,6 @@
 ﻿namespace LinkedListLibrary;
 
-class Program
+class StackTest
 {
     static void Main()
     {

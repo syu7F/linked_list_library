@@ -4,7 +4,7 @@ using ConsoleApp1;
 
 namespace LinkedListLibrary;
 
-class Mylinkedlist<T> : ICollection<T>
+public class Mylinkedlist<T> : ICollection<T>
 {
     public MylinkedNode<T>? Head { get; private set; }
     public MylinkedNode<T>? Tail { get; private set; }
