@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreOrderTraversalProj", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStackProj", "MyStackProj\MyStackProj.csproj", "{338DFE72-2358-4A4A-A93D-D8F0176DE11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBinaryTreeProj", "MyBinaryTreeProj\MyBinaryTreeProj.csproj", "{A616836E-C128-4A92-953B-CDF1457F1AB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBinaryTreeProject", "MyBinaryTreeProject\MyBinaryTreeProject.csproj", "{419F6722-4F5D-43A4-91D5-B2F388EC4B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{338DFE72-2358-4A4A-A93D-D8F0176DE11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{338DFE72-2358-4A4A-A93D-D8F0176DE11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338DFE72-2358-4A4A-A93D-D8F0176DE11B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A616836E-C128-4A92-953B-CDF1457F1AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A616836E-C128-4A92-953B-CDF1457F1AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A616836E-C128-4A92-953B-CDF1457F1AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A616836E-C128-4A92-953B-CDF1457F1AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419F6722-4F5D-43A4-91D5-B2F388EC4B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419F6722-4F5D-43A4-91D5-B2F388EC4B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419F6722-4F5D-43A4-91D5-B2F388EC4B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419F6722-4F5D-43A4-91D5-B2F388EC4B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
