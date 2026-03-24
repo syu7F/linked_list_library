@@ -3,7 +3,7 @@
 public class BinaryTreeNode<TNode> : IComparable<TNode>
     where TNode : IComparable<TNode>
 {
-    public TNode Value { get; private set; }
+    public TNode Value { get;  set; }
     public BinaryTreeNode<TNode>? Left { get; set; }
     public BinaryTreeNode<TNode>? Right { get; set; }
 
