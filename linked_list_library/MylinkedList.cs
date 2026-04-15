@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Numerics;
 using ConsoleApp1;
 
 namespace LinkedListLibrary;
@@ -21,7 +20,7 @@ public class Mylinkedlist<T> : ICollection<T>
         //AddLast(item);
     }
 
-    void ICollection<T>.Clear()
+    public void Clear()
     {
         Head = null;
         Tail = null;
@@ -41,6 +40,38 @@ public class Mylinkedlist<T> : ICollection<T>
         }
 
         return false;
+    }
+
+    public void AddBefore(MylinkedNode<T> current, T item)
+    {
+        if (current == null)
+            throw new ArgumentNullException(nameof(current));
+
+        var newNode = new MylinkedNode<T>(item);
+
+
+        if (current == Head)
+        {
+            AddFirst(newNode);
+            return;
+        }
+
+
+        var prev = Head;
+
+        while (prev != null && prev.Next != current)
+        {
+            prev = prev.Next;
+        }
+
+        if (prev == null)
+            throw new InvalidOperationException("Node not found in the list.");
+
+
+        prev.Next = newNode;
+        newNode.Next = current;
+
+        Count++;
     }
 
     void ICollection<T>.CopyTo(T[] array, int arrayIndex)
