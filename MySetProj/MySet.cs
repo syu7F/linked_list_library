@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace LinkedListLibrary
 {
-    public class Set<T> : IEnumerable<T>
+    public class MySet<T> : IEnumerable<T>
         where T : IComparable<T>
     {
         private readonly List<T> _items = new List<T>();
 
-        public Set()
+        public MySet()
         {
         }
 
-        public Set(IEnumerable<T> items)
+        public MySet(IEnumerable<T> items)
         {
             AddRange(items);
         }
@@ -51,9 +51,9 @@ namespace LinkedListLibrary
         public int Count => _items.Count;
 
  
-        public Set<T> Union(Set<T> other)
+        public MySet<T> Union(MySet<T> other)
         {
-            var result = new Set<T>(_items);
+            var result = new MySet<T>(_items);
 
             foreach (var item in other)
             {
@@ -64,9 +64,9 @@ namespace LinkedListLibrary
         }
 
 
-        public Set<T> Intersection(Set<T> other)
+        public MySet<T> Intersection(MySet<T> other)
         {
-            var result = new Set<T>();
+            var result = new MySet<T>();
 
             foreach (var item in _items)
             {
@@ -79,9 +79,9 @@ namespace LinkedListLibrary
             return result;
         }
 
-        public Set<T> Difference(Set<T> other)
+        public MySet<T> Difference(MySet<T> other)
         {
-            var result = new Set<T>();
+            var result = new MySet<T>();
 
             foreach (var item in _items)
             {
@@ -94,9 +94,9 @@ namespace LinkedListLibrary
             return result;
         }
 
-        public Set<T> SymmetricDifference(Set<T> other)
+        public MySet<T> SymmetricDifference(MySet<T> other)
         {
-            var result = new Set<T>();
+            var result = new MySet<T>();
 
             foreach (var item in _items)
             {

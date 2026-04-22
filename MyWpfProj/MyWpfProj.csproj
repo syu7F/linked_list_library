@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\linked_list_library\LinkedListLibrary.csproj" />
+    <ProjectReference Include="..\MySetProj\MySetProj.csproj" />
   </ItemGroup>
 
 </Project>

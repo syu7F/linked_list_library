@@ -11,10 +11,11 @@ public class MyStack<T> : IEnumerable<T>
 
     public bool IsEmpty => Count == 0;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> ae35713cacc2bd296f0bfee1a412a8a3c49dcf51
+    public MyStack()
+    {
+    }
+
     public MyStack(ICollection<T> collection)
     {
         foreach (var item in collection)
