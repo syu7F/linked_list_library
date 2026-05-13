@@ -13,6 +13,7 @@
     <ProjectReference Include="..\MyBubbleSortProj\MyBubbleSortProj.csproj" />
     <ProjectReference Include="..\MyInsertionSortProj\MyInsertionSortProj.csproj" />
     <ProjectReference Include="..\MyQueueProject\MyQueueProject.csproj" />
+    <ProjectReference Include="..\MyQuickSortProj\MyQuickSortProj.csproj" />
     <ProjectReference Include="..\MyStackProj\MyStackProj.csproj" />
   </ItemGroup>
 
